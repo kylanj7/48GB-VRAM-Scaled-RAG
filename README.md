@@ -121,24 +121,6 @@ python main.py stats
 python main.py reset
 ```
 
-## Memory Requirements
-
-### With 4-bit Quantization (Recommended)
-
-| Model Size | Embedding VRAM | LLM VRAM | Total VRAM |
-|------------|---------------|----------|------------|
-| 3B LLM     | ~1GB          | ~2GB     | ~3GB       |
-| 7B LLM     | ~1GB          | ~4GB     | ~5GB       |
-| 13B LLM    | ~1GB          | ~7GB     | ~8GB       |
-
-### Without Quantization
-
-| Model Size | Embedding VRAM | LLM VRAM | Total VRAM |
-|------------|---------------|----------|------------|
-| 3B LLM     | ~1GB          | ~6GB     | ~7GB       |
-| 7B LLM     | ~1GB          | ~14GB    | ~15GB      |
-| 13B LLM    | ~1GB          | ~26GB    | ~27GB      |
-
 ## Project Structure
 
 ```
