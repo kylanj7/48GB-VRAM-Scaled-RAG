@@ -1,34 +1,21 @@
-# Core ML Framework
-torch>=2.0.0,<2.6.0
-transformers>=4.35.0,<4.50.0
-sentence-transformers>=2.2.2,<3.4.0
-accelerate>=0.24.0,<1.2.0
+# requirements.txt
+torch>=2.0.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
 
-# Quantization support
-bitsandbytes>=0.41.0,<0.45.0
-
-# Vector store and RAG framework
-langchain>=0.1.0,<0.4.0
-langchain-community>=0.0.1,<0.4.0
-langchain-chroma>=0.1.0,<0.2.0
-chromadb>=0.4.0,<0.6.0
-
-# PDF processing
-PyMuPDF>=1.23.0,<1.25.0
-langchain-text-splitters>=0.0.1,<0.4.0
+# LangChain stack (your working versions)
+langchain
+langchain-chroma
+langchain-text-splitters
+pypdf
+chromadb
+PyMuPDF
 
 # Utilities
 tqdm>=4.65.0
-numpy>=1.24.0,<2.0.0
-packaging>=23.0
-
-# API and async support
-httpx>=0.24.0
-aiohttp>=3.8.0
-
-# Configuration management
-pydantic>=2.0.0,<3.0.0
-pydantic-settings>=2.0.0
+numpy>=1.24.0
 
 # Optional: Performance enhancements (uncomment if needed)
 # flash-attn>=2.3.0  # Requires CUDA 11.8+ and specific GPU
