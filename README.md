@@ -221,3 +221,8 @@ python src/retriever.py
 ## License
 
 MIT License - feel free to use for any purpose.
+
+## Sources: 
+https://huggingface.co/docs/transformers/main/perf_infer_gpu_one
+
+https://docs.pytorch.org/tutorials/beginner/former_torchies/parallelism_tutorial.html
