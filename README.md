@@ -38,6 +38,11 @@ numpy>=1.24.0
 # NVIDIA NV-Embed-v2 dependencies
 datasets
 einops
+
+# Optional: Performance enhancements (uncomment when needed)
+# flash-attn>=2.3.0  # Requires CUDA 11.8+ and specific GPU
+# xformers>=0.0.22  # Better memory efficiency, requires CUDA
+# einops>=0.7.0  # Tensor operations for advanced models
 ```
 ### Fedora/RHEL Setup
 ```bash
